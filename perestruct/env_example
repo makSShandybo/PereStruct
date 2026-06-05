@@ -1,0 +1,3 @@
+ocr_api_key=your_ocr_api_key
+llm_api_key = your_llm_api_key
+folder_id=your_folder_id

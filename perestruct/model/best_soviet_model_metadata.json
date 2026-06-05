@@ -1,0 +1,45 @@
+{
+  "timestamp": "20260320_103840",
+  "config": {
+    "vectorizer": {
+      "analyzer": "char_wb",
+      "ngram_range": [
+        2,
+        4
+      ],
+      "max_features": 15000,
+      "min_df": 3,
+      "max_df": 0.85
+    },
+    "model": {
+      "n_estimators": 300,
+      "max_depth": 12,
+      "learning_rate": 0.03,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "colsample_bylevel": 0.8,
+      "random_state": 42,
+      "tree_method": "hist",
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "n_jobs": -1
+    },
+    "yolo": {
+      "dim": 576
+    }
+  },
+  "vocab_size": 15000,
+  "metrics": {
+    "auc": 0.9246920662203857,
+    "f1": 0.8502916396629941,
+    "accuracy": 0.8585569956117971
+  },
+  "source_dataset": "pairs_soviet.pkl",
+  "feature_breakdown": {
+    "tfidf_per_block": 15000,
+    "coords": 8,
+    "geo_features": 20,
+    "yolo_features": 576,
+    "total": 30604
+  }
+}
