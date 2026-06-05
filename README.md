@@ -1,4 +1,4 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2301.12345-red?logo=arxiv&logoColor=red)](https://arxiv.org)
+[![arXiv](https://img.shields.io/badge/arXiv--red?logo=arxiv&logoColor=red)](https://arxiv.org)
 
 # PereStruct: Multimodal Semantic Assembly For Robust Historical Document Parsing
 
@@ -16,13 +16,10 @@ Automated pipeline for processing scanned pages of Soviet newspapers. The projec
 5. **Visualization:** Generation of images with articles marked in different colors.
 
 ![PereStruct predictions](media/predictions.jpg)
-**PereStruct Predictions**
 
 ## Comparison with Vision-Language Models
 
 We evaluate PereStruct against state-of-the-art vision-language models (VLMs) on end-to-end article extraction from raw images to structured Markdown. PereStruct substantially outperforms both Qwen3.6-35B-A3B (35B parameters) and Qwen3.6-Plus (billion-scale proprietary model) across all metrics.
-
-### Performance Comparison
 
 | Model | BLEU ↑ | ROUGE-1 ↑ | ROUGE-2 ↑ | ROUGE-L ↑ |
 |:---|:---|:---|:---|:---|
