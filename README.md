@@ -32,7 +32,7 @@ We evaluate PereStruct against state-of-the-art vision-language models (VLMs) on
 This repository provides two datasets to support research on historical document parsing:
 
 * **PereStruct Benchmark**: An annotated dataset of Soviet newspaper pages with ground-truth article groupings and corrected OCR texts for evaluation and testing.
-* **YOLO Training Dataset**: Pre-processed layout detection data formatted for DocLayout-YOLO training, pre-split into train/validation/test sets. Available on [Zenodo](INSERT_ZENODO_LINK_HERE).
+* **YOLO Training Dataset**: Pre-processed layout detection data formatted for DocLayout-YOLO training, pre-split into train/validation/test sets. Available on [Zenodo](https://zenodo.org/records/20607645).
 
 ![PereStruct Benchmark](media/bench.jpg)
 **PereStruct Benchmark Visualization**
@@ -253,7 +253,7 @@ PereStruct/
 
 Pre-processed dataset for pre-training the layout detection model (DocLayout-YOLO) is available on Zenodo:
 
-**Download:** [ZENODO_LINK]
+**Download:** [https://zenodo.org/records/20607645]
 
 The dataset is already split into `train/`, `val/`, and `test/` folders and formatted for YOLO training:
 ```
