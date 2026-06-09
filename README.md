@@ -1,4 +1,4 @@
-[![arXiv](https://img.shields.io/badge/arXiv--red?logo=arxiv&logoColor=red)]([https://arxiv.org](http://arxiv.org/abs/2606.07661))
+[![arXiv](https://img.shields.io/badge/arXiv--red?logo=arxiv&logoColor=red)]([http://arxiv.org/abs/2606.07661]
 
 # PereStruct: Multimodal Semantic Assembly For Robust Historical Document Parsing
 
